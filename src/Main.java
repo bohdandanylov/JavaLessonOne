@@ -16,6 +16,13 @@ public class Main {
         dog.makeSound();
         cat.makeSound();
 
+        ArithmeticOperators.operators();
+
+        GetterSetter a = new GetterSetter();
+
+        System.out.println(a.getSalary());
+        System.out.println(a.getYear());
+
     }
 
     public static void test(Animal animal){
@@ -39,6 +46,7 @@ class Data {
     }
 
     public int getAge(){
+
         return age;
     }
 
@@ -52,6 +60,7 @@ class Data {
     }
 
     public int dataWeight(){
+
         return weight;
     }
 
@@ -65,6 +74,7 @@ class Data {
     }
 
     public String getType(){
+
         return type;
     }
 
